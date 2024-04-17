@@ -1,12 +1,11 @@
 import './assets/index.css'
+import ListNote from './komponen/ListNote'
 
 function App() {
   return (
-    <>
-      <div className='relative'>
-
-      </div>
-    </>
+    <div>
+      <ListNote/>
+    </div>
   )
 }
 
